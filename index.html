@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> DODOO </title>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="css/fontawesome.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/aos.css" />
+    <link type="text/css" rel="stylesheet" href="css/style-switcher.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- preloader start -->
+    <div class="preloader js-preloader">
+        <div></div>
+    </div>
+    <!-- preloader end -->
+
+    <!-- page wrapper start -->
+<div class="page-wrapper">
+       <!-- header start -->
+        <header class="header js-header">
+            <div class="container">
+                <div class="logo" data-aos="fade-down" data-aos-duration="1000">
+                <a href="#">dodoo <span>cleaning services</span></a>
+                </div>
+                <button type="button" class="nav-toggler js-nav-toggler" data-aos="fade-down" data-aos-duration="1000">
+                <span></span>
+                </button>
+                <nav class="nav js-nav">
+                    <ul data-aos="fade-down" data-aos-duration="1000">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+    <!-- header end -->
+     
+    <!-- home section start-->
+    <section class="home" id="home">
+        <div class="container">
+            <div class="grid">
+                <div class="home-text">
+                    <h1 data-aos="fade-up" data-aos-duration="1000">need cleaning services? </h1>
+                    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150">Dodoo Services offer professional cleaning services designed to make your life easier and your space spotless. Whether it’s residential or commercial, no job is too big or small. Our team of expert cleaners ensures every corner is thoroughly cleaned, leaving you with a fresh and healthy environment.</p>
+                    <div class="btn-wrap" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                        <a href="#about" class="btn">know more</a>
+                    </div>
+                </div>
+                <div class="home-img">
+                    <div class="circle-wrap" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="circle"></div>
+                    </div>
+                    <img src="image/home-img.png" alt="img" data-aos="fade-left" data-aos-duration="1000">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--home section end-->
+
+    <!--about selection start-->
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class ="grid">
+                <div class="about-img">
+                   <div class="img-box" data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="image/about-img.png" alt="img">
+                    <div class="box box-1">
+                        <span>2.5k</span>
+                        <p>satisfied clients</p>
+                    </div>
+                   </div> 
+                </div>
+                <div class="about-text">
+                  <div class="section-title">
+                    <span class="title" data-aos="fade-up" data-aos-duration="600">about us</span>
+                    <h2 class="sub-title" data-aos="fade-up" data-aos-duration="600">we're cleaning service business</h2>
+                  </div>
+                  <p data-aos="fade-up" data-aos-duration="600">Dodoo Services specializes in effective customer service. Our work goes beyond providing an optimal cleaning service for your property. We want you to understand each step of our process, and we don’t stop until you’re happy with results.</p>
+                  <p data-aos="fade-up" data-aos-duration="600">As mentioned before, there are many different cleaning scenarios where you may need our help. But, regardless of what you need, we’re here to make all your junk/dirt/waste disappear in record time. Overall, we’re an all-in-one cleaning service provider, and we’re optimistic we can help you with your needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--about selection end-->
+
+    <!-- services section start-->
+     <section class="services section-padding" id="services">
+        <div class="container">
+            <div class="section-title">
+                <span class="title" data-aos="fade-up" data-aos-duration="600">services</span>
+                <h2 class="sub-title" data-aos="fade-up" data-aos-duration="600">what we do</h2>
+            </div>
+            <div class="grid">
+                <!-- services item start -->
+                <div class="services-item" data-aos="fade-up" data-aos-duration="600">
+                <div class="img-box">
+                    <img src="image/service/housekeeping.png" alt="housekeeping">
+                </div>
+                    <h3>housekeeping</h3>
+                    <br>
+                    <div class="btn-wrap">
+                        <a class="button" onclick="housekeeping()">detail</a>
+                    </div>
+                </div>
+                <!-- services item end -->
+                <!-- services item start -->
+                <div class="services-item" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                    <div class="img-box">
+                        <img src="image/service/garderner.png" alt="garderner">
+                    </div>
+                    <h3>garderner</h3>
+                    <br>                    
+                    <div class="btn-wrap">
+                        <a class="button" onclick="garderner()">detail</a>
+                    </div>
+                </div>
+                <!-- services item end -->
+                <!-- services item start -->
+                <div class="services-item" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+                    <div class="img-box">
+                        <img src="image/service/cleaning swimming pool.png" alt="cleaningswimmingpool">
+                    </div>
+                    <h3>cleaning swimming pool</h3>
+                    <br>
+                    <div class="btn-wrap">
+                        <a class="button" onclick="swimming()">detail</a>
+                    </div>
+                </div>
+                <!-- services item end -->
+                <!-- services item start -->
+                <div class="services-item" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+                    <div class="img-box">
+                        <img src="image/service/nursery.png" alt="nursery">
+                    </div>
+                    <h3>nursery</h3>
+                    <br>
+                    <div class="btn-wrap">
+                        <a class="button" onclick="nursery()">detail</a>
+                    </div>
+                </div>
+                <!-- services item end -->
+            </div>
+        </div>
+     </section>
+    <!-- services section end-->
+
+    <!-- pricing section start -->
+    <section class="pricing section-padding" id="pricing">
+        <div class="container">
+            <div class="section-title">
+                <span class="title" data-aos="fade-up" data-aos-duration="600">pricing</span>
+                <h2 class="sub-title" data-aos="fade-up" data-aos-duration="600">our pricing plans</h2>
+            </div>
+            <div class="grid">
+                <!-- basic plan start --->
+                <div class="pricing-item" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="pricing-header">
+                      <h3>basic</h3>
+                      <div class="price"><span>Rs5,000</span> quarterly</div>
+                    </div>
+                    <div class="pricing-body">
+                        <ul>
+                            <li><i class="fas fa-check"></i> housekeeping</li>
+                            <li><i class="fas fa-check"></i> garderner</li>
+                            <li><i class="fas fa-check"></i> cleaning swimming pool</li>
+                            <li><i class="fas fa-check"></i> nursery</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                      <a href="#" class="btn">get started</a>
+                    </div>
+                </div>
+                <!-- basic plan end --->
+
+                <!-- standard plan start --->
+                <div class="pricing-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="pricing-header">
+                        <h3>standard</h3>
+                        <div class="price"><span>Rs10,000</span> semester</div>
+                    </div>
+                    <div class="pricing-body">
+                        <ul>
+                            <li><i class="fas fa-check"></i> housekeeping</li>
+                            <li><i class="fas fa-check"></i> garderner</li>
+                            <li><i class="fas fa-check"></i> cleaning swimming pool</li>
+                            <li><i class="fas fa-check"></i> nursery</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                      <a href="#" class="btn">get started</a>
+                    </div>
+                </div>
+                <!-- standard plan end --->
+                                
+                <!-- premium plan start --->
+                <div class="pricing-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="pricing-header">
+                        <h3>premium</h3>
+                        <div class="price"><span>Rs12,500</span> year</div>
+                    </div>
+                    <div class="pricing-body">
+                        <ul>
+                            <li><i class="fas fa-check"></i> housekeeping</li>
+                            <li><i class="fas fa-check"></i> garderner</li>
+                            <li><i class="fas fa-check"></i> cleaning swimming pool</li>
+                            <li><i class="fas fa-check"></i> nursery</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                      <a href="#" class="btn">get started</a>
+                    </div>
+                </div>
+                <!-- premium plan end --->
+            </div>
+        </div>
+    </section>
+    <!-- pricing section end -->
+
+    <!-- team section start -->
+     <section class="team section-padding" id="team">
+        <div class="container">
+            <div class="section-title">
+                <span class="title" data-aos="fade-up" data-aos-duration="600">team</span>
+                <h2 class="sub-title" data-aos="fade-up" data-aos-duration="600">meet our team</h2>
+            </div>
+            <div class="grid">
+                <!-- team item start -->
+                <div class="team-item" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="img-box">
+                        <img src="image/team/1.png" alt="img">
+                    </div>
+                    <div class="detail">
+                        <h3>muhammad rasiullah ashfaq ghoora</h3>
+                        <p>director</p>
+                    </div>
+                </div>
+                <!-- team item end-->
+                <!-- team item start -->
+                <div class="team-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="img-box">
+                        <img src="image/team/2.png" alt="img">
+                    </div>
+                    <div class="detail">
+                        <h3>laura julie camille</h3>
+                        <p>director</p>
+                    </div>
+                </div>
+                <!-- team item end-->
+            </div>
+        </div>
+     </section>
+    <!-- team section end-->
+
+    <!-- contact section start -->
+    <section class="contact section-padding" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <span class="title" data-aos="fade-up" data-aos-duration="600">contact us</span>
+                <h2 class="sub-title" data-aos="fade-up" data-aos-duration="600">have any question ?</h2>
+                <h2 class="sub-title">please fill this form correctly</h2>
+            </div>
+            <div class="grid contact-grid">
+                <div class="contact-info">
+                    <div class="contact-info-item" data-aos="fade-up" data-aos-duration="600">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <p>Cassomally Road Centre Flacq</p>
+                    </div>
+                    <div class="contact-info-item" data-aos="fade-up" data-aos-duration="600">
+                        <i class="fas fa-phone"></i>
+                        <h3>Call us</h3>
+                        <p>(+230) 5826-4057</p>
+                        <p>(+230) 5251-2163</p>
+                        <p>+33 682 06 90 32</p>
+                    </div>
+                    <div class="contact-info-item" data-aos="fade-up" data-aos-duration="600">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email us</h3>
+                        <a href="http://mail.google.com/mail/.">laura.bocage.dodoo@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-up" data-aos-duration="600">
+                    <form>
+                        <div class="input-box">
+                           <input type="text" placeholder="First Name" class="input-control" required>
+                        </div>
+                        <div class="input-box">
+                           <input type="text" placeholder="Last Name" class="input-control" required>
+                        </div>
+                        <div class="input-box">
+                           <input type="text" placeholder="Email" class="input-control" required>
+                        </div>
+                        <div class="input-box">
+                            <input type="text" placeholder="Phone" class="input-control" required>
+                        </div>
+                        <div class="input-box">
+                            <textarea placeholder="Message" class="input-control" required></textarea>
+                        </div>
+                           <a href="mailto:laura.bocage.dodoo@gmail.com">
+                              <button type="submit" class="btn">Send Message</button>
+                           </a>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact secton end-->
+
+    <!-- footer start -->
+     <footer class="footer">
+        <div class="container">
+            <h3>follow us</h3>
+            <div class="social-links">
+                <a href="#" title="facebook"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+     </footer>
+    <!-- footer end -->
+
+    </div>
+    <!-- page wrapper end -->
+
+    <!-- style switcher start -->
+    <div class="style-switcher js-style-switcher">
+        <button type="button" class="style-switcher-toggler js-style-switcher-toggler">
+            <i class="fas fa-cog"></i>
+        </button>
+        <div class="style-switcher-main">
+            <h2>style switcher</h2>
+            <div class="style-switcher-item">
+                <p>Theme Color</p>
+                <div class="theme-color">
+                    <input type="range" min="0" max="360" class="hue-slider js-hue-slider">
+                    <div class="hue">Hue: <span class="js-hue"></span></div>
+                </div>
+            </div>
+            <div class="style-switcher-item">
+                <label class="form-switch">
+                    <span>Dark Mode</span>
+                    <input type="checkbox" class="js-dark-mode">
+                    <div class="box"></div>
+                </label>
+            </div>
+        </div>
+    </div>
+    <!-- style switcher end -->
+
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/style-switcher.js"></script>
+</body>
+</html>
